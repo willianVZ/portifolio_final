@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-image: url('../CSS/fundo-gradiente-preto-com-cubos_23-2149177090.avif'); /* caminho relativo para a imagem */
+  background-size: cover; /* ajusta o tamanho da imagem para cobrir toda a tela */
+  background-position: center; /* centraliza a imagem */
+  background-repeat: no-repeat; /* evita que a imagem se repita */
+
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.navegaçao {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul a {
+  color: aliceblue;
+  margin: 0 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+
+@keyframes animate-outline {
+  0% {
+    box-shadow: 0 0 10px #4f9cf9;
+  }
+  50% {
+    box-shadow: 0 0 20px #4f9cf9;
+  }
+  100% {
+    box-shadow: 0 0 10px #4f9cf9;
+  }
+}
+
+
+.projeto1 {
+  margin-bottom: 30px;
+}
+
+.projeto1 h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.projeto1 p {
+  color: #ffffff9c;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  color: aliceblue;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.2s;
+  animation: animate-outline 1s ease-out infinite;
+}
+
+@keyframes animate-outline {
+  0% {
+    box-shadow: 0 0 10px #4f9cf9;
+  }
+  50% {
+    box-shadow: 0 0 20px #4f9cf9;
+  }
+  100% {
+    box-shadow: 0 0 10px #4f9cf9;
+  }
+}
+
+header {
+  background-position: center;
+  background-size: contain;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul a {
+  color: aliceblue;
+  margin: 0 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.gg {
+  font-size: 30px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner .banner-text {
+  margin: 150px;
+  text-align: center;
+  padding: 0 90px;
+}
+
+.banner .banner-text h1 {
+  font-size: 96px;
+  color: aliceblue;
+}
+
+.banner .banner-text p {
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: lighter;
+  margin: 18px 0;
+}
+
+nav ul a::after {
+  content: "";
+  background-color: #4f9cf9;
+  height: 3px;
+  width: 0%;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+nav ul a:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: "Arial";
+    
+    
+        background-image: url('../CSS/fundo-gradiente-preto-com-cubos_23-2149177090.avif'); /* caminho relativo para a imagem */
+        background-size: cover; /* ajusta o tamanho da imagem para cobrir toda a tela */
+        background-position: center; /* centraliza a imagem */
+        background-repeat: no-repeat; /* evita que a imagem se repita */
+    }
+    
+    /* ------------- CÓDIGO PARA CONTATO COM O/A GESTOR/A ---------------- */
+    
+    .Gestor_a {
+        background-color: deepskyblue;
+        height: 500px;
+        width: 300px;
+        box-shadow: 4px 4px 4px 4px black;
+        border-radius: 12px;
+        margin-top: 100px;
+    }
+    
+    .Gestor_a div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Gestor_a h1 {
+        font-size: 1.3rem;
+    }
+    
+    .Gestor_a h2 {
+        font-size: 1.1rem;
+        color: aliceblue;
+    }
+    
+    .Gestor_a button {
+        background-color: brown;
+        height: 70px;
+        width: 80%;
+        border: none;
+        padding: 10px;
+        color: aliceblue;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .imagem {
+        width: 200px;
+        height: 200px;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-left:55px;
+    
+    }
+    
+    
+    /* ------------------ CÓDIGO PARA CONTATO COM A ESCOLA --------------------- */
+    
+    .Escola {
+        background-color: deepskyblue;
+        height: 500px;
+        width: 300px;
+        box-shadow: 4px 4px 4px 4px black;
+        border-radius: 12px;
+        margin-top: 100px;
+    }
+    
+    .Escola div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Escola h1 {
+        font-size: 1.3rem;
+    }
+    
+    .Escola h2 {
+        font-size: 1.1rem;
+        color: aliceblue;
+    }
+    
+    .Escola button {
+        background-color: brown;
+        height: 70px;
+        width: 80%;
+        border: none;
+        padding: 10px;
+        color: aliceblue;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .imagem2 {
+        width: 200px;
+        height: 200px;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-left:55px;
+    
+    }
+    
+    
+    /* ----------------- CÓDIGO PARA CONTATO COM OS PROGRAMADORES ------------------- */
+    
+    /* ------programador 1------- */
+    
+    .prog1 {
+        background-color: deepskyblue;
+        height: 500px;
+        width: 300px;
+        box-shadow: 4px 4px 4px 4px black;
+        border-radius: 12px;
+        margin-top: 100px;
+    }
+    
+    .prog1 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .prog1 h1 {
+        font-size: 1.3rem;
+    }
+    
+    .prog1 h2 {
+        font-size: 1.1rem;
+        color: aliceblue;
+    }
+    
+    .prog1 button {
+        background-color: brown;
+        height: 70px;
+        width: 80%;
+        border: none;
+        padding: 10px;
+        color: aliceblue;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .imagem2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        margin-top: 5px;
+        margin-left:25px;
+    
+    }
+    
+    /* -----programador 2----- */
+    
+    .prog2 {
+        background-color: deepskyblue;
+        height: 500px;
+        width: 300px;
+        box-shadow: 4px 4px 4px 4px black;
+        border-radius: 12px;
+        margin-top: 100px;
+    }
+    
+    .prog2 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .prog2 h1 {
+        font-size: 1.3rem;
+    }
+    
+    .prog2 h2 {
+        font-size: 1.1rem;
+        color: aliceblue;
+    }
+    
+    .prog2 button {
+        background-color: brown;
+        height: 70px;
+        width: 80%;
+        border: none;
+        padding: 10px;
+        color: aliceblue;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .imagem2 {
+        width: 200px;
+        height: 200px;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-left:55px;
+    
+    }
+    
+    /* ----programador 3----- */
+    
+    .prog3 {
+        background-color: deepskyblue;
+        height: 500px;
+        width: 300px;
+        box-shadow: 4px 4px 4px 4px black;
+        border-radius: 12px;
+        margin-top: 100px;
+    }
+    
+    .prog3 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .prog3 h1 {
+        font-size: 1.3rem;
+    }
+    
+    .prog3 h2 {
+        font-size: 1.1rem;
+        color: aliceblue;
+    }
+    
+    .prog3 button {
+        background-color: brown;
+        height: 70px;
+        width: 80%;
+        border: none;
+        padding: 10px;
+        color: aliceblue;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .imagem2 {
+        width: 200px;
+        height: 200px;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-left:55px;
+    
+    }
+    /* ----programador 4----- */
+    
+    .prog4 {
+        background-color: deepskyblue;
+        height: 500px;
+        width: 300px;
+        box-shadow: 4px 4px 4px 4px black;
+        border-radius: 12px;
+        margin-top: 100px;
+    }
+    
+    .prog4 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .prog4 h1 {
+        font-size: 1.3rem;
+    }
+    
+    .prog4 h2 {
+        font-size: 1.1rem;
+        color: aliceblue;
+    }
+    
+    .prog4 button {
+        background-color: brown;
+        height: 70px;
+        width: 80%;
+        border: none;
+        padding: 10px;
+        color: aliceblue;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .imagem2 {
+        width: 200px;
+        height: 200px;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-left:55px;
+    
+    }
